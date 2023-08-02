@@ -1,0 +1,14 @@
+columns:
+  batches: Партии
+  operations: Технология
+  routes: Маршруты
+  bill_of_materials: Спецификация
+  departments: Подразделения
+  equipment: Оборудование
+
+CA: # как подключиться к СА
+  url: 'https://b--ca-sculptor-beta.bfg-soft.ru'
+  login: 'admin'
+  password: 'admin'
+  ws_url: 'wss://e--sculptor-beta.bfg-soft.ru'
+  verify: False
