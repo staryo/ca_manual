@@ -3,3 +3,6 @@ tqdm==4.65.0
 websocket-client==1.6.1
 PyYAML~=6.0
 openpyxl==3.1.2
+charset-normalizer==3.2.0
+urllib3==2.0.4
+chardet

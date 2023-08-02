@@ -132,7 +132,7 @@ def start_batches(ca_session, data):
                     'operation_id': operation_id,
                     'start_date': start_date.strftime('%Y-%m-%dT%H:%M:%S'),
                     'stop_date': start_date.strftime('%Y-%m-%dT%H:%M:%S'),
-                    'prod_time': round(8 / operation['NORM_AMOUNT'] * 60, 4)
+                    'prod_time': round(1 / operation['NORM_AMOUNT'] * 60 * 60, 4)
                 }
             )
 
